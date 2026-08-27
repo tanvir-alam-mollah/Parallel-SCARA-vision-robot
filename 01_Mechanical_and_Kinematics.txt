@@ -1,0 +1,17 @@
+PROJECT: 5-Bar Parallel SCARA Manipulator
+=========================================
+DESCRIPTION: 
+A direct-drive 2-DOF parallel robotic manipulator designed for automated pick-and-place operations. The system uses a computer vision pipeline to dynamically calculate inverse kinematics and physically sort objects using an electromagnet end-effector.
+
+MECHANICAL PARAMETERS:
+- Actuators: 2x NEMA 17 Stepper Motors (Direct Drive)
+- End-Effector: 5V DC Electromagnet (Model: P25/20, 5kg holding force, 0.6A current draw)
+- Workspace Base Origins: 
+  - Left Motor (Base 1): X = -40.0 mm, Y = 0.0 mm
+  - Right Motor (Base 2): X = 40.0 mm, Y = 0.0 mm
+- Linkage Dimensions:
+  - Base Links (Link 1 & Link 2): 110.0 mm
+  - End Links (Link 3 & Link 4): 160.0 mm
+
+KINEMATICS:
+The system uses mathematical Inverse Kinematics (IK) to convert cartesian target coordinates (X, Y) into radian joint angles for the stepper motors. The formula utilizes the law of cosines and trigonometric mapping (atan2, hypot) to constantly ensure targets fall within the physical envelope of the mechanical linkages.
