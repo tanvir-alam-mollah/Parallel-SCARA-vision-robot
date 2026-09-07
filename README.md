@@ -1,14 +1,12 @@
-# Parallel-SCARA-vision-robot
-<img width="950" height="726" alt="3" src="https://github.com/user-attachments/assets/1c513f9c-bccf-4ef2-a514-d2dce302a55d" />
-
 # Autonomous 5-Bar Parallel SCARA Manipulator
-
+**Developer:** Md Tanvir Alam Mollah, Mechatronics Engineering, KUET  
+**Domain:** Autonomous Systems Integration & Closed-Loop Robotics  
+<img width="950" height="726" alt="3" src="https://github.com/user-attachments/assets/1c513f9c-bccf-4ef2-a514-d2dce302a55d" />
 ![Project Status](https://img.shields.io/badge/Status-Active_Development-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Language](https://img.shields.io/badge/Language-C++_%7C_Python-yellow)
 
-**Developer:** Md Tanvir Alam Mollah, Mechatronics Engineering, KUET  
-**Domain:** Autonomous Systems Integration & Closed-Loop Robotics  
+
 
 ## 📌 Project Overview
 A direct-drive, 2-DOF parallel robotic manipulator designed for fully autonomous pick-and-place operations. This project bridges advanced mechanical kinematics with real-time computer vision, allowing the system to identify targets within a calibrated workspace, compute real-world cartesian coordinates, and execute precision sorting using a custom electromagnet end-effector. 
